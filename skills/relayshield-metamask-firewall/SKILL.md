@@ -1,6 +1,6 @@
 ---
 name: relayshield-metamask-firewall
-description: Use when the user asks anything about screening a MetaMask Agent Wallet action before it executes, protecting an agent that trades, swaps, bridges, or pays through the MetaMask `mm` CLI or a MetaMask MCP server, or routing MetaMask agent traffic through the RelayShield MCP Proxy Firewall. Single entry point for RelayShield screening of MetaMask agent write calls: pre-payment counterparty screening, payTo pin checks, and the hosted or self-hosted Firewall proxy. Screening is advice and enforcement at the tool call: it never replaces the human's approval, and it never moves funds.
+description: "Use when the user asks anything about screening a MetaMask Agent Wallet action before it executes, protecting an agent that trades, swaps, bridges, or pays through the MetaMask `mm` CLI or a MetaMask MCP server, or routing MetaMask agent traffic through the RelayShield MCP Proxy Firewall. Single entry point for RelayShield screening of MetaMask agent write calls: pre-payment counterparty screening, payTo pin checks, and the hosted or self-hosted Firewall proxy. Screening is advice and enforcement at the tool call: it never replaces the human's approval, and it never moves funds."
 license: MIT
 metadata:
   author: relayshield
