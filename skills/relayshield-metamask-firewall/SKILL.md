@@ -9,21 +9,6 @@ metadata:
 
 # RelayShield MCP Proxy Firewall for MetaMask Agent Wallet
 
-DRAFT skill entry, prepared 2026-11-10 for Andrew's review. Not submitted
-to MetaMask and not published. It follows the shape of the MetaMask
-agent-skills SKILL.md at github.com/MetaMask/agent-skills: YAML frontmatter
-with name, description, license, and metadata, then detection, onboarding,
-a routing table, configuration, and install steps.
-
-Status notes for the reviewer, remove before publishing:
-- The self-hosted proxy path below is live today (same proxy as the
-  Coinbase Wallet MCP skill). The hosted proxy endpoint is in build, not
-  live yet: do not publish the hosted-proxy section until the hosted
-  endpoint is deployed and verified.
-- The MetaMask MCP surface named below is the Embedded Wallets MCP server
-  at https://mcp.web3auth.io, per MetaMask docs. Verify its tool surface
-  and URL on the live docs before publishing.
-
 ## Name
 
 RelayShield MCP Proxy Firewall for MetaMask Agent Wallet
